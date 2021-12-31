@@ -1,54 +1,79 @@
-* {
-  font-family: "Atkinson Hyperlegible", sans-serif;
-  box-sizing: border-box;
-}
-html,
-body {
-  min-height: 100%;
-  background: #fff;
-  color: #000;
+.page1 {
+  background-color: #152938;
+  padding: 50px;
+  min-width: 530px;
 }
 
-.startgame .button1 {
+.start_game {
+  text-align: center;
+  background-color: #fcfcfc;
+  color: #7191a5;
+  border-radius: 30px;
+  padding: 30px;
+  max-width: 870px;
+  align-content: center;
+  margin: auto;
+  position: relative;
+}
+
+h1 {
+  font-family: "Atkinson Hyperlegible", sans-serif, Bold;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #fcfcfc;
+}
+
+h3 {
+  font-family: "Atkinson Hyperlegible", sans-serif, Bold;
+  font-size: 48px;
+}
+
+.button1 {
   width: 30%;
   border-radius: 30px;
   font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 28px;
+  font-size: 1.5rem;
   font-style: bold;
   color: #fcfcfc;
   background-color: #bcced9;
   stroke: #979797;
+  stroke-width: 0px;
 }
 
 .button2 {
   width: 15%;
   border-radius: 30px;
   font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 28px;
+  font-size: 1.8rem;
   font-style: bold;
   color: #fcfcfc;
   background-color: #bcced9;
   stroke: #979797;
+  stroke-width: 0px;
 }
 
 .button3 {
   width: 30%;
   border-radius: 30px;
   font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 28px;
+  font-size: 1.8rem;
   font-style: bold;
   color: #fcfcfc;
   background-color: #bcced9;
   stroke: #979797;
+  stroke-width: 0px;
 }
 
 .button4 {
   width: 60%;
   border-radius: 30px;
   font-family: "Atkinson Hyperlegible", sans-serif;
-  font-size: 28px;
+  font-size: 1.8rem;
   font-style: bold;
   color: #fcfcfc;
   background-color: #fda214;
   stroke: #979797;
+  stroke-width: 0px;
+  margin-top: 30px;
 }
